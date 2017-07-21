@@ -1,0 +1,152 @@
+.events-container-form {
+	display : block;
+	margin : 10px;
+	padding : 0px;
+	border: 1px solid #e6e6e6;
+	font-size: 11px;
+}
+
+.events-container-form .row {
+	display : block;
+	position : relative !important;
+	border-bottom : 1px solid #e5e5e5 !important;
+	padding : 10px 15px 10px 0 !important;
+	*padding : 9px 15px 9px 0 !important;
+	font-size: 12px !important;
+}
+
+.events-container-form .row:first-child {
+	border-top : 1px solid #e5e5e5;
+}
+.events-container-form .row  label {
+	position : absolute;
+	top : 16px;
+	left : 10px;
+	padding : 0;
+	margin : 0;
+	cursor : text;
+	width : 130px;
+}
+
+.events-container-form .row .right {
+	display : block;
+	margin : 0 0 0 150px;
+}
+.message {
+	position : relative;
+	display : inline-block;
+	margin : 20px 20px 0 0;
+	padding : 0 0 0 35px;
+	clear : both;
+	cursor : pointer;
+	-moz-box-shadow: 1px 1px 0 #e6e6e6;
+	-webkit-box-shadow: 1px 1px 0 #e6e6e6;
+	box-shadow: 1px 1px 0 #e6e6e6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#e6e6e6')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#e6e6e6');
+	zoom: 1;
+}
+
+.message:hover {
+	opacity : 0.7;
+	filter : alpha(opacity=70);
+}
+
+.message span {
+	display : block;
+/*	background : url(../images/system-icon.png) no-repeat 98% center;*/
+	padding : 13px 0;
+	font : 12px/1.0em Arial;
+}
+
+.message.inner {
+	margin : 0 0 20px;
+}
+
+.message.red {
+	display : block;
+	background : url(../images/icon-error.png) no-repeat 10px 8px #F8E9E9;
+	border : 1px solid #E4BBBC;
+	color : #b80000;
+}
+
+.message.green {
+	display : block;
+	background : url(../images/icon-succes.png) no-repeat 10px 8px #EBF9E2;
+	border : 1px solid #BEE4A5;
+	color : #6aa500;
+	margin-left: 12px;
+	margin-bottom : 20px;
+}
+
+.message.blue {
+	display : block;
+	background : url(../images/icon-info.png) no-repeat 10px 8px #E9F3F8;
+	border : 1px solid #BBD7E4;
+	color : #136bc5;
+}
+
+.message.orange {
+	display : block;
+	background : url(../images/icon-warning.png) no-repeat 10px 8px #FFF8D8;
+	border : 1px solid #F3D97E;
+	color : #ed9d12;
+}
+
+/* //////////////////// VALIDATION \\\\\\\\\\\\\\\\\\\\ */
+
+.events-container-form .row label.error{
+	position : static;
+	display : inline-block;
+	top : auto;
+	background : #F8E9E9;
+	border : 1px solid #E4BBBC;
+	margin : 5px 0 0;
+	padding : 6px 5px;
+	color : #b80000;
+	line-height : 1.3em;
+	width : 100%;
+	-moz-box-shadow: 1px 1px 0 #e6e6e6;
+	-webkit-box-shadow: 1px 1px 0 #e6e6e6;
+	box-shadow: 1px 1px 0 #e6e6e6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#e6e6e6')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=1, Direction=135, Color='#e6e6e6');
+	zoom: 1;
+}
+
+.events-container-form .row .right input.error,
+.events-container-form .row .right textarea.error {
+	border : 1px solid #E4BBBC;
+}
+
+/* //////////////////// INPUTFIELD \\\\\\\\\\\\\\\\\\\\ */
+
+.events-container-form .row .right input[type='text'],input[type='select'] {
+	display : inline-block;
+	background : url(../gfx/input-back.gif) repeat-x left top;
+	border : 1px solid #dcdcdc;
+	outline : 0;
+	padding : 5px;
+	margin : 0;
+	font : 12px/1.2em Arial;
+	width : 100%;
+	
+}
+
+/* //////////////////// TEXTAREA \\\\\\\\\\\\\\\\\\\\ */
+
+.events-container-form  .row .right textarea {
+	display : inline-block;
+	background : url(../gfx/input-back.gif) repeat-x left top;
+	border : 1px solid #dcdcdc;
+	resize : none;
+	outline : 0;
+	overflow : auto;
+	padding : 6px;
+	margin : 0;
+	font : 12px/1.5em Arial;
+	width : 100%;
+}
+
+/* //////////////////// SELECTBOX \\\\\\\\\\\\\\\\\\\\ */
+

@@ -1,0 +1,1122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Handler Standard Edition\n"
+"POT-Creation-Date: 2013-05-21 11:27+0530\n"
+"PO-Revision-Date: 2013-05-21 12:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\wordpress\\wp-content\\plugins\\events-"
+"handler\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: menus.php:7 views/events.php:46
+msgid "Events"
+msgstr "olaylar"
+
+#: menus.php:12 lib/event-handler-class.php:9
+msgid "Bookings"
+msgstr "rezervasyonlarında"
+
+#: menus.php:17 lib/event-handler-class.php:10
+msgid "Calendar"
+msgstr "takvim"
+
+#: menus.php:22 lib/event-handler-class.php:11
+msgid "Templates"
+msgstr "şablonları"
+
+#: menus.php:27 lib/event-handler-class.php:12 views/ticket.php:24
+msgid "Tickets"
+msgstr "Biletler"
+
+#: menus.php:32 lib/event-handler-class.php:13
+msgid "Customers"
+msgstr "Müşteriler"
+
+#: menus.php:37 views/shortcode.php:23
+msgid "Shortcodes"
+msgstr "kısa kod"
+
+#: menus.php:42 lib/event-handler-class.php:15 views/setting.php:23
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: menus.php:53
+msgid "Overview Stats"
+msgstr "genel bakış istatistikl"
+
+#: menus.php:56
+msgid "Total Events"
+msgstr "Toplam Etkinlikler"
+
+#: menus.php:62
+msgid "Total Bookings"
+msgstr "Toplam Rezervasyonları"
+
+#: menus.php:68
+msgid "Total Tickets"
+msgstr "Toplam Biletler"
+
+#: menus.php:74
+msgid "Total Customers"
+msgstr "Toplam Müşteriler"
+
+#: menus.php:86
+msgid "Default Settings"
+msgstr "varsayılan Ayarlar"
+
+#: lib/booking-class.php:64 views/booking.php:37 views/bookings_detail.php:45
+#: views/ticket.php:33
+msgid "Event Name"
+msgstr "olay Adı"
+
+#: lib/booking-class.php:65 views/booking.php:38
+msgid "Customer Name"
+msgstr "Müşteri Adı"
+
+#: lib/booking-class.php:66 views/bookings_detail.php:47 views/events.php:57
+#: views/events_show.php:19 views/paypal_detail.php:38
+msgid "Time"
+msgstr "zaman"
+
+#: lib/booking-class.php:67
+msgid "Start Date"
+msgstr "Başlangıç ​​Tarihi"
+
+#: lib/booking-class.php:68
+msgid "End Date"
+msgstr "bitiş tarihi"
+
+#: lib/booking-class.php:69 views/booking.php:42 views/bookings_detail.php:50
+msgid "Status"
+msgstr "statü"
+
+#: lib/event-class.php:195 lib/event-class.php:451 lib/event-class.php:537
+msgid "Location Not Found."
+msgstr "Yer Bulunamadı."
+
+#: lib/event-handler-class.php:7 lib/event-handler-class.php:8
+msgid "Events Handler"
+msgstr "Olaylar-işleyici"
+
+#: lib/event-handler-class.php:14
+msgid "Short Codes"
+msgstr "kısa Kodlar"
+
+#: lib/event-handler-class.php:25
+msgid "API Key"
+msgstr "API Anahtarı"
+
+#: lib/front_end_fullcalendar-class.php:343
+#: lib/front_end_fullcalendar-class.php:355
+msgid "Choose Number of Tickets"
+msgstr "Bilet sayısı seçin"
+
+#: lib/front_end_fullcalendar-class.php:537
+msgid "Back"
+msgstr "geri"
+
+#: lib/front_end_fullcalendar-class.php:628
+#: lib/front_end_fullcalendar-class.php:997
+msgid "Date :"
+msgstr "tarihi :"
+
+#: lib/front_end_fullcalendar-class.php:694
+msgid "Time Slot :"
+msgstr "Zaman Yuvası :"
+
+#: lib/front_end_fullcalendar-class.php:735
+#: lib/front_end_fullcalendar-class.php:981
+msgid "Venue :"
+msgstr "Yer :"
+
+#: lib/front_end_fullcalendar-class.php:741
+#: lib/front_end_fullcalendar-class.php:880
+#: lib/front_end_fullcalendar-class.php:989
+#: lib/front_end_fullcalendar-class.php:1076 views/addBooking.php:80
+#: views/edit_customer.php:76
+msgid "Address :"
+msgstr "adresi :"
+
+#: lib/front_end_fullcalendar-class.php:747
+#: lib/front_end_fullcalendar-class.php:888
+#: lib/front_end_fullcalendar-class.php:1084 views/addBooking.php:88
+#: views/edit_customer.php:82
+msgid "City :"
+msgstr "Şehir :"
+
+#: lib/front_end_fullcalendar-class.php:758 views/edit_booking.php:330
+msgid "Ticket Type :"
+msgstr "Bilet Türü :"
+
+#: lib/front_end_fullcalendar-class.php:773
+msgid "Choose Ticket"
+msgstr "Bilet seçin"
+
+#: lib/front_end_fullcalendar-class.php:787
+msgid "Number of Tickets :"
+msgstr "Biletler sayısı :"
+
+#: lib/front_end_fullcalendar-class.php:796
+#: lib/front_end_fullcalendar-class.php:1036
+msgid "Price :"
+msgstr "Fiyat :"
+
+#: lib/front_end_fullcalendar-class.php:807
+msgid "Book now"
+msgstr "kitap-Şimdi"
+
+#: lib/front_end_fullcalendar-class.php:826
+msgid "Back to Event"
+msgstr "Olay geri"
+
+#: lib/front_end_fullcalendar-class.php:831
+msgid "Back to Customer"
+msgstr "Müşterilere geri"
+
+#: lib/front_end_fullcalendar-class.php:838 views/addBooking.php:26
+msgid "Success! Booking has been saved."
+msgstr "Başarı! rezervasyon olmuştur-kurtardı"
+
+#: lib/front_end_fullcalendar-class.php:848
+#: lib/front_end_fullcalendar-class.php:1044
+msgid "E-mail Address :"
+msgstr "E-posta Adresi :"
+
+#: lib/front_end_fullcalendar-class.php:856
+#: lib/front_end_fullcalendar-class.php:1052 views/addBooking.php:48
+#: views/edit_customer.php:52
+msgid "First Name :"
+msgstr "ilk İsim :"
+
+#: lib/front_end_fullcalendar-class.php:864
+#: lib/front_end_fullcalendar-class.php:1060 views/addBooking.php:56
+#: views/edit_customer.php:58
+msgid "Last Name :"
+msgstr "son İsim :"
+
+#: lib/front_end_fullcalendar-class.php:872
+#: lib/front_end_fullcalendar-class.php:1068 views/addBooking.php:72
+#: views/edit_customer.php:70
+msgid "Mobile :"
+msgstr "seyyar"
+
+#: lib/front_end_fullcalendar-class.php:896
+#: lib/front_end_fullcalendar-class.php:1092 views/addBooking.php:96
+#: views/edit_customer.php:88
+msgid "Post Code :"
+msgstr "Mesaj-Kod :"
+
+#: lib/front_end_fullcalendar-class.php:904
+#: lib/front_end_fullcalendar-class.php:1100 views/addBooking.php:104
+msgid "Country :"
+msgstr "Ülke :"
+
+#: lib/front_end_fullcalendar-class.php:950
+#: lib/front_end_fullcalendar-class.php:1155 views/addBooking.php:112
+#: views/edit_customer.php:128
+msgid "Comments :"
+msgstr "yorumlar :"
+
+#: lib/front_end_fullcalendar-class.php:961
+msgid "Save & Submit"
+msgstr "Gönder Kaydet ve"
+
+#: lib/front_end_fullcalendar-class.php:973
+msgid "Event :"
+msgstr "Etkinlik :"
+
+#: lib/front_end_fullcalendar-class.php:1009
+msgid "Time :"
+msgstr "Time :"
+
+#: lib/front_end_fullcalendar-class.php:1020 views/addticket.php:88
+#: views/editticket.php:98
+msgid "Ticket Name :"
+msgstr "Bilet Adı :"
+
+#: lib/front_end_fullcalendar-class.php:1028
+msgid "Number of tickets :"
+msgstr "Bilet sayısı :"
+
+#: lib/front_end_fullcalendar-class.php:1166
+msgid "Submit"
+msgstr "boyun eğmek"
+
+#: lib/menus-class.php:71
+msgid "Default Currency"
+msgstr "Geçerli Para Birimi varsayıla"
+
+#: lib/menus-class.php:87
+msgid "Date Format"
+msgstr "Tarih Biçimi"
+
+#: lib/menus-class.php:138
+msgid "Time Format"
+msgstr "Saat Biçimi"
+
+#: lib/menus-class.php:144 views/setting.php:170 views/setting.php:181
+msgid "12 Hours"
+msgstr "12 Saat"
+
+#: lib/menus-class.php:152 views/setting.php:173 views/setting.php:184
+msgid "24 Hours"
+msgstr "24 Saat"
+
+#: lib/menus-class.php:169
+msgid "Time Zone"
+msgstr "zaman Dilimi"
+
+#: lib/menus-class.php:185
+msgid "Paypal Payments"
+msgstr "Paypal Ödemeler"
+
+#: lib/menus-class.php:192 lib/menus-class.php:226
+msgid "On"
+msgstr "üzerinde"
+
+#: lib/menus-class.php:200 lib/menus-class.php:234
+msgid "Off"
+msgstr "devre dışı"
+
+#: lib/menus-class.php:219
+msgid "Auto Approve"
+msgstr "Otomatik Onayla"
+
+#: views/addBooking.php:7
+msgid "EVENT HANDLER"
+msgstr "Olay Uygulayıcısı"
+
+#: views/addBooking.php:12
+msgid "BOOKINGS"
+msgstr "rezervasyonlarında"
+
+#: views/addBooking.php:17
+msgid "ADD BOOKINGS"
+msgstr "eklemek rezervasyonlarında"
+
+#: views/addBooking.php:33
+msgid "Error! Please enter valid booking time."
+msgstr "hata! lütfen girmek doğru rezervasyon-zaman"
+
+#: views/addBooking.php:40
+msgid "Error! Please choose event."
+msgstr "Hata! Olay seçin."
+
+#: views/addBooking.php:64
+msgid "E-mail.Id :"
+msgstr "E-mail.Id :"
+
+#: views/addBooking.php:123 views/add_event.php:261
+#: views/edit_customer.php:137
+msgid "Submit & Save"
+msgstr "Gönder ve Kaydet"
+
+#: views/addBooking.php:127
+msgid "Cancel Bookings"
+msgstr "Rezervasyonları İptal"
+
+#: views/addBooking.php:136 views/addticket.php:164 views/add_event.php:275
+#: views/api_key.php:97 views/booking.php:203 views/bookings_detail.php:219
+#: views/bookings_fullcalendar.php:32 views/clients.php:90
+#: views/editEvent.php:415 views/editticket.php:175 views/edit_booking.php:482
+#: views/edit_customer.php:151 views/email_templates.php:260
+#: views/paypal_detail.php:234 views/setting.php:556 views/shortcode.php:60
+#: views/ticket.php:120
+msgid "&copy; 2013 Events-Handler"
+msgstr "&copy; 2013 Events-Handler"
+
+#: views/addBooking.php:139 views/addticket.php:167 views/add_event.php:278
+#: views/api_key.php:100 views/booking.php:206 views/bookings_detail.php:222
+#: views/bookings_fullcalendar.php:35 views/clients.php:93
+#: views/editEvent.php:418 views/editticket.php:178 views/edit_booking.php:485
+#: views/edit_customer.php:154 views/email_templates.php:263
+#: views/events.php:209 views/paypal_detail.php:237 views/setting.php:559
+#: views/shortcode.php:63 views/ticket.php:123
+msgid "Powered by "
+msgstr "Powered by "
+
+#: views/addBooking.php:141 views/addticket.php:169 views/add_event.php:280
+#: views/api_key.php:102 views/booking.php:208 views/bookings_detail.php:224
+#: views/bookings_fullcalendar.php:37 views/clients.php:95
+#: views/editEvent.php:420 views/editticket.php:180 views/edit_booking.php:487
+#: views/edit_customer.php:156 views/email_templates.php:265
+#: views/paypal_detail.php:239 views/setting.php:561 views/shortcode.php:65
+#: views/ticket.php:125
+msgid "Events-Handler!"
+msgstr "Events-Handler!"
+
+#: views/addticket.php:7 views/add_event.php:7 views/api_key.php:7
+#: views/booking.php:7 views/bookings_detail.php:7
+#: views/bookings_fullcalendar.php:7 views/clients.php:7
+#: views/editEvent.php:24 views/editticket.php:19 views/edit_booking.php:7
+#: views/edit_customer.php:7 views/email_templates.php:7 views/events.php:7
+#: views/paypal_detail.php:7 views/setting.php:10 views/shortcode.php:10
+#: views/ticket.php:7
+msgid "EVENTS HANDLER"
+msgstr "ETKİNLİKLER HANDLER"
+
+#: views/addticket.php:12 views/editticket.php:24 views/ticket.php:12
+msgid "TICKETS"
+msgstr "BİLET"
+
+#: views/addticket.php:17 views/addticket.php:28
+msgid "ADD TICKET"
+msgstr "BİLET-EKLE"
+
+#: views/addticket.php:24 views/editticket.php:36
+msgid "Back to Tickets"
+msgstr "geri-karşı-bilet"
+
+#: views/addticket.php:35
+msgid "Success! Ticket has been saved."
+msgstr "Başarı! Bilet  özelliği kalmamış kimse-kurtardı"
+
+#: views/addticket.php:42 views/addticket.php:266
+msgid "Error! Please Choose a Event."
+msgstr "Hata! Bir Etkinlik Seçiniz."
+
+#: views/addticket.php:49 views/addticket.php:270 views/editticket.php:54
+#: views/editticket.php:273
+msgid "Error! Minimum Tickets are greater than Maximum Ticket."
+msgstr "hata! maksimum-biletler Minimum Büyüktür vardır."
+
+#: views/addticket.php:56 views/editticket.php:61
+msgid "Select Event :"
+msgstr "Olay seçin :"
+
+#: views/addticket.php:71
+msgid "Choose Event"
+msgstr "Etkinlik seçin"
+
+#: views/addticket.php:96 views/add_event.php:58 views/editticket.php:106
+msgid "Description :"
+msgstr "Açıklama :"
+
+#: views/addticket.php:114 views/editticket.php:127
+msgid "Price ("
+msgstr "Fiyat ("
+
+#: views/addticket.php:122 views/editticket.php:135
+msgid "Available Tickets :"
+msgstr "Mevcut Kartlar :"
+
+#: views/addticket.php:130 views/editticket.php:143
+msgid "Minimum :"
+msgstr "minimum:"
+
+#: views/addticket.php:138 views/editticket.php:151
+msgid "Maximum :"
+msgstr "maksimum:"
+
+#: views/addticket.php:150 views/editticket.php:161
+#: views/email_templates.php:64 views/email_templates.php:120
+#: views/email_templates.php:175 views/email_templates.php:230
+#: views/setting.php:532
+msgid "Submit & Save Changes"
+msgstr "değişiklikleri göndermek ve kaydetmek"
+
+#: views/addticket.php:258 views/editticket.php:265
+msgid ""
+"Error! You have entered minimum tickets are greater than Available tickets"
+msgstr "Hata! Mevcut-bileti minimum-bileti biletleri daha az"
+
+#: views/addticket.php:262 views/editticket.php:269
+msgid ""
+"Error! You have entered maximum tickets are greater than Available tickets"
+msgstr "Hata! Mevcut bileti maksimum biletleri daha az"
+
+#: views/add_event.php:12 views/editEvent.php:29 views/events.php:12
+msgid "EVENTS"
+msgstr "ETKİNLİKLER"
+
+#: views/add_event.php:17
+msgid "ADD NEW EVENT"
+msgstr "YENİ OLAY EKLE"
+
+#: views/add_event.php:24 views/editEvent.php:41
+msgid "Back to Events"
+msgstr "Etkinlikler için geri"
+
+#: views/add_event.php:28 views/events.php:19
+msgid "Add New Event"
+msgstr "eklenti yeni etkinlik"
+
+#: views/add_event.php:36 views/editEvent.php:52
+msgid "Success! Event has been saved."
+msgstr "Başarı! Olay kurtardı"
+
+#: views/add_event.php:43
+msgid "Event Color :"
+msgstr "Olay Renk :"
+
+#: views/add_event.php:51 views/editEvent.php:68 views/edit_booking.php:142
+msgid "Event Name :"
+msgstr "Olay Adı :"
+
+#: views/add_event.php:64 views/editEvent.php:83
+msgid "Full Day :"
+msgstr "tok gün"
+
+#: views/add_event.php:71 views/editEvent.php:103
+msgid "Event From :"
+msgstr "Olay Gönderen:"
+
+#: views/add_event.php:74 views/editEvent.php:107 views/edit_booking.php:152
+msgid "Event Date :"
+msgstr "Etkinlik Tarihi :"
+
+#: views/add_event.php:82 views/editEvent.php:116
+msgid "Event To :"
+msgstr "için-olay"
+
+#: views/add_event.php:90 views/editEvent.php:124
+msgid "Start Time :"
+msgstr "Başlangıç ​​Zamanı :"
+
+#: views/add_event.php:124 views/add_event.php:125 views/editEvent.php:203
+#: views/editEvent.php:204 views/editEvent.php:210 views/editEvent.php:211
+#: views/editEvent.php:299 views/editEvent.php:300 views/editEvent.php:306
+#: views/editEvent.php:307
+msgid "AM"
+msgstr "AM"
+
+#: views/add_event.php:127 views/add_event.php:128 views/editEvent.php:219
+#: views/editEvent.php:220 views/editEvent.php:226 views/editEvent.php:227
+#: views/editEvent.php:315 views/editEvent.php:316 views/editEvent.php:322
+#: views/editEvent.php:323
+msgid "PM"
+msgstr "PM"
+
+#: views/add_event.php:135 views/editEvent.php:237
+msgid "End Time :"
+msgstr "Zaman uç :"
+
+#: views/add_event.php:188 views/editEvent.php:335
+msgid "Venue Name :"
+msgstr "Yer Adı :"
+
+#: views/add_event.php:196 views/editEvent.php:343
+msgid "Venue Address :"
+msgstr "Yer Adresi :"
+
+#: views/add_event.php:204 views/editEvent.php:351
+msgid "Venue City :"
+msgstr "Yer Şehir :"
+
+#: views/add_event.php:212 views/editEvent.php:359
+msgid "Venue Country :"
+msgstr "Mekan Ülke:"
+
+#: views/add_event.php:447 views/editEvent.php:569
+msgid "Start Date must be greater than or equal to end date."
+msgstr "Başlangıç ​​Tarihi DAHA Büyük VEYA Tarih Sonuna Kadar Eşit olmalıdır."
+
+#: views/add_event.php:469
+msgid "Please Enter Valid Time"
+msgstr "Valid Zaman girin Lütfen"
+
+#: views/api_key.php:12
+msgid "API KEY"
+msgstr "API Anahtarı"
+
+#: views/api_key.php:25
+msgid ""
+"<p>We Respect your Privacy. Your information is highly confidential to us "
+"and we don't sell it to third parties.</p><p> We need you to register your "
+"API Key with your Email Address & Name in order to make this plugin work "
+"smoothly.</p><p>Once you register your API, the plugin would work as "
+"expected.</p>"
+msgstr ""
+"<p> Biz Gizlilik saygı. Bilgileriniz bizim için son derece gizli ve biz "
+"üçüncü şahıslara satmak yok. </ P> <p> sorunsuz Bu eklenti çalışması için "
+"size E-posta Adresi ve Adı ile API Anahtarı kayıt olmanız gerekmektedir. </ "
+"p> <p> kez API kaydolun eklenti beklendiği gibi çalışmaya devam eder. </ p>"
+
+#: views/api_key.php:32
+msgid "Your Email :"
+msgstr "sizin E-posta :"
+
+#: views/api_key.php:40
+msgid "Your Name :"
+msgstr "sizin  İsim :"
+
+#: views/api_key.php:49
+msgid "Api Key :"
+msgstr "Api Anahtarı :"
+
+#: views/api_key.php:75
+msgid "Yes, I may Purchase Pro Version Later."
+msgstr "Evet, ben sonra Pro Sürüm satın olabilir daha sonra."
+
+#: views/api_key.php:84
+msgid "Register your API Key to start using Events Handler"
+msgstr "kaydetmek API Anahtarı . başlatmak için kullanma Etkinlikler Handler"
+
+#: views/booking.php:12 views/booking.php:30 views/edit_booking.php:12
+msgid "BOOKINGS AGENDA"
+msgstr "rezervasyon-gündem"
+
+#: views/booking.php:39 views/clients.php:31
+msgid "Mobile"
+msgstr "seyyar"
+
+#: views/booking.php:40
+msgid "Event Time"
+msgstr "olay Zaman"
+
+#: views/booking.php:41 views/ticket.php:34
+msgid "Event Date"
+msgstr "Etkinlik Tarihi"
+
+#: views/booking.php:185
+msgid "Edit Booking?"
+msgstr "düzenleme-rezervasyon"
+
+#: views/booking.php:186 views/bookings_detail.php:203
+#: views/paypal_detail.php:218
+msgid "Delete Booking?"
+msgstr "silmek-rezervasyon?"
+
+#: views/booking.php:231 views/bookings_detail.php:247
+#: views/paypal_detail.php:262
+msgid "Are you sure you want to delete this Booking?"
+msgstr "Eğer bu rezervasyon silmek istediğinizden emin misiniz?"
+
+#: views/bookings_detail.php:12 views/clients.php:12 views/clients.php:20
+#: views/edit_customer.php:12 views/paypal_detail.php:12
+msgid "CUSTOMERS"
+msgstr "MÜŞTERİLER"
+
+#: views/bookings_detail.php:17 views/bookings_detail.php:38
+msgid "BOOKINGS DETAILS"
+msgstr "REZERVASYON BİLGİLERİ"
+
+#: views/bookings_detail.php:24 views/edit_customer.php:24
+#: views/paypal_detail.php:24
+msgid "Back to Customers"
+msgstr "Müşterilere geri"
+
+#: views/bookings_detail.php:46 views/events.php:56 views/events_show.php:18
+#: views/paypal_detail.php:37
+msgid "Date"
+msgstr "hurma"
+
+#: views/bookings_detail.php:48
+msgid "Ticket Type"
+msgstr "Bilet Tipi"
+
+#: views/bookings_detail.php:49
+msgid "Total Price"
+msgstr "Toplam Fiyat"
+
+#: views/bookings_fullcalendar.php:12
+msgid "EVENTS BOOKINGS"
+msgstr "ETKİNLİKLER rezervasyonlarında"
+
+#: views/bookings_fullcalendar.php:20
+msgid "Events Calendar"
+msgstr "Etkinlik-Takvimi"
+
+#: views/clients.php:28
+msgid "First Name"
+msgstr "ilk İsim"
+
+#: views/clients.php:29
+msgid "Last Name"
+msgstr "son İsim"
+
+#: views/clients.php:30
+msgid "Email Address"
+msgstr "E-posta Adresi"
+
+#: views/clients.php:32
+msgid "City"
+msgstr "şehir"
+
+#: views/clients.php:33
+msgid "Country"
+msgstr "ülke"
+
+#: views/clients.php:65
+msgid "Edit Client?"
+msgstr "düzenlemek Müşteri?"
+
+#: views/clients.php:70
+msgid "Paypal Details?"
+msgstr "Paypal-Detaylar?"
+
+#: views/clients.php:75
+msgid "Bookings Details?"
+msgstr "rezervasyonlarında-Detaylar?"
+
+#: views/clients.php:76
+msgid "Delete Client"
+msgstr "Müşteri Sil"
+
+#: views/clients.php:118
+msgid "Are you sure you want to delete this Customer?"
+msgstr "Eğer bu müşteri silmek istediğinizden emin misiniz?"
+
+#: views/clients.php:128
+msgid "You cannot delete this Customer until all Bookings are deleted."
+msgstr "Tüm Rezervasyonları silinir kadar bu Müşteri silemezsiniz."
+
+#: views/editEvent.php:34
+msgid "EDIT EVENT"
+msgstr "Etkinlik Düzenle"
+
+#: views/editEvent.php:45
+msgid "Edit Event"
+msgstr "Etkinlik Düzenle"
+
+#: views/editEvent.php:60
+msgid "Event Color Code :"
+msgstr "Olay Renk Kodu :"
+
+#: views/editEvent.php:76
+msgid "Event Description :"
+msgstr "Olay Açıklama :"
+
+#: views/editEvent.php:402
+msgid "Update Event"
+msgstr "güncelleme-Etkinlik"
+
+#: views/editEvent.php:588
+msgid "Please Enter Valid Time."
+msgstr "Geçerli girin- Zaman  lütfen."
+
+#: views/editticket.php:29 views/editticket.php:40
+msgid "EDIT TICKET"
+msgstr "düzenleme-BİLET"
+
+#: views/editticket.php:47
+msgid "Success! Ticket has been updated."
+msgstr "Başarı! Bilet  olmuş güncellendi."
+
+#: views/edit_booking.php:17
+msgid "EDIT BOOKING"
+msgstr "düzenleme-rezervasyon"
+
+#: views/edit_booking.php:24
+msgid "Back to Bookings"
+msgstr "rezervasyonlarında için geri"
+
+#: views/edit_booking.php:28
+msgid "Edit Booking"
+msgstr "düzenleme-rezervasyon"
+
+#: views/edit_booking.php:34
+msgid "Success! Booking has been Updated.."
+msgstr "Başarı! rezervasyon  edilmiştir..olmuştur-güncelledi"
+
+#: views/edit_booking.php:71
+msgid "Customer First Name :"
+msgstr "Müşteri ilk İsim :"
+
+#: views/edit_booking.php:77
+msgid "Customer Last Name :"
+msgstr "Müşteri son İsim :"
+
+#: views/edit_booking.php:83
+msgid "Customer Email :"
+msgstr "Müşteri E-posta :"
+
+#: views/edit_booking.php:89
+msgid "Customer Mobile :"
+msgstr "Müşteri-Mobil :"
+
+#: views/edit_booking.php:95
+msgid "Customer Address :"
+msgstr "Müşteri adres :"
+
+#: views/edit_booking.php:101
+msgid "Customer City :"
+msgstr "Müşteri Şehir :"
+
+#: views/edit_booking.php:108
+msgid "Customer Country:"
+msgstr "Müşteri Ülke :"
+
+#: views/edit_booking.php:213
+msgid "Event Time :"
+msgstr "Olay Zaman :"
+
+#: views/edit_booking.php:269
+msgid "Date Of Booking :"
+msgstr "rezervasyon of Tarihi :"
+
+#: views/edit_booking.php:340
+msgid "No. of Tickets :"
+msgstr "Biletler sayısı :"
+
+#: views/edit_booking.php:360
+msgid "Total Cost ("
+msgstr "Toplam Maliyet ("
+
+#: views/edit_booking.php:385
+msgid "Trns. Id :"
+msgstr "Trns. id:"
+
+#: views/edit_booking.php:395
+msgid "Payment Status :"
+msgstr "Ödeme Durum :"
+
+#: views/edit_booking.php:405
+msgid "Payment date :"
+msgstr "Ödeme tarihi :"
+
+#: views/edit_booking.php:418
+msgid "Booking Status :"
+msgstr "rezervasyon durum :"
+
+#: views/edit_booking.php:427 views/edit_booking.php:445
+#: views/edit_booking.php:454
+msgid "Approved"
+msgstr "onaylı"
+
+#: views/edit_booking.php:428 views/edit_booking.php:437
+#: views/edit_booking.php:455
+msgid "Disapproved"
+msgstr "Reddedildi"
+
+#: views/edit_booking.php:429 views/edit_booking.php:438
+#: views/edit_booking.php:447
+msgid "Cancelled"
+msgstr "İptal"
+
+#: views/edit_booking.php:435 views/edit_booking.php:444
+#: views/edit_booking.php:453
+msgid "Pending Approval"
+msgstr "Onay Bekliyor"
+
+#: views/edit_booking.php:467
+msgid "Update & Save"
+msgstr "güncelleme ve tasarruf"
+
+#: views/edit_customer.php:17
+msgid "EDIT CUSTOMERS"
+msgstr "Müşteriler Düzenle"
+
+#: views/edit_customer.php:28
+msgid "Edit Customers"
+msgstr "Müşteriler Düzenle"
+
+#: views/edit_customer.php:34
+msgid "Success! Customer has been Updated.."
+msgstr "Başarı! Müşteri  olmuş Güncelleme edilmiştir.."
+
+#: views/edit_customer.php:64
+msgid "Email :"
+msgstr "E-posta :"
+
+#: views/edit_customer.php:95
+msgid "Country:"
+msgstr "Ülke :"
+
+#: views/email_templates.php:12
+msgid "EMAIL TEMPLATES"
+msgstr "E-POSTA şablonları"
+
+#: views/email_templates.php:21 views/email_templates.php:76
+#: views/email_templates.php:131 views/email_templates.php:186
+#: views/email_templates.php:241
+msgid "Success! The Email has been saved."
+msgstr "Başarı!E-posta  olmuştur-kurtardı"
+
+#: views/email_templates.php:27
+msgid "Approval Pending Email Template [Sent to Customer]"
+msgstr "Onay Bekliyor-e-posta şablon [gönderilen-müşteri]"
+
+#: views/email_templates.php:34 views/email_templates.php:99
+#: views/email_templates.php:154 views/email_templates.php:209
+msgid "Email Subject :"
+msgstr "E-posta Konu :"
+
+#: views/email_templates.php:51 views/email_templates.php:107
+#: views/email_templates.php:162 views/email_templates.php:217
+msgid "Email Content :"
+msgstr "E-posta İçerik :"
+
+#: views/email_templates.php:92
+msgid "Approved Email Template [Sent to Customer]"
+msgstr "Onaylı E-posta Şablonu [gönderilen-müşteri]"
+
+#: views/email_templates.php:147
+msgid "Disapproved Email Template [Sent to Customer]"
+msgstr "Reddedildi E-posta Şablonu [gönderilen-müşteri]"
+
+#: views/email_templates.php:202
+msgid "Approve/Disapprove Email Template [Sent to Admin]"
+msgstr "Onaylı/Reddedildi e-posta şablonu[gönderdi -e doğru administration]"
+
+#: views/events.php:24
+msgid "Success! Event has been deleted."
+msgstr "Başarı! Olay silindi."
+
+#: views/events.php:31
+msgid "Error! Please Enter the Valid Time."
+msgstr "Hata! Geçerli Zaman girin lütfen."
+
+#: views/events.php:39
+msgid "Bookings associated with this Event. It can't be deleted."
+msgstr "rezervasyonlarında bu olay ilişkili. Bu silinemez."
+
+#: views/events.php:52
+msgid "Name"
+msgstr "isim"
+
+#: views/events.php:53 views/events_show.php:16
+msgid "Venue"
+msgstr "mahkeme yeri"
+
+#: views/events.php:54 views/events_show.php:17
+msgid "Address"
+msgstr "adres"
+
+#: views/events.php:55
+msgid "Full Day"
+msgstr "tok gün"
+
+#: views/events.php:97
+msgid "Yes"
+msgstr "evet"
+
+#: views/events.php:103
+msgid "No"
+msgstr "yok"
+
+#: views/events.php:192
+msgid "Edit Event?"
+msgstr "Düzenle-Olay?"
+
+#: views/events.php:193
+msgid "Delete Event?"
+msgstr "silmek olay?"
+
+#: views/events.php:206
+msgid "&copy; 2013 Events Handler. All Rights Reserved."
+msgstr "&copy; 2013 Events Handler. All Rights Reserved."
+
+#: views/events.php:211
+msgid "Events Handler!"
+msgstr "Events Handler!"
+
+#: views/events.php:236
+msgid "Are you sure you want to delete this Event?"
+msgstr "Eğer bu olay silmek istediğinizden emin misiniz?"
+
+#: views/events.php:245
+msgid "Bookings associated with this event. you cannot delete it"
+msgstr "rezervasyonlarında bu olay ilişkili. Bunu silemezsiniz"
+
+#: views/events.php:249
+msgid "Ticket associated with this Event. you can't delete it"
+msgstr "ilişkili Bilet olay. bunu silemezsiniz"
+
+#: views/events_show.php:15
+msgid "EVENT NAME"
+msgstr "OLAY ADI"
+
+#: views/events_show.php:141
+msgid "View Detail"
+msgstr "bilgileri-Detay"
+
+#: views/events_show.php:207 views/event_details.php:41
+#: views/front_end_fullcalendar.php:79
+msgid "No more booking possible on this event."
+msgstr "no-daha- rezervasyonlarında on Bu olay"
+
+#: views/events_show.php:273 views/event_details.php:110
+#: views/front_end_fullcalendar.php:159
+msgid "Please choose ticket type"
+msgstr "Bilet seçiniz türünü"
+
+#: views/events_show.php:280 views/event_details.php:117
+#: views/front_end_fullcalendar.php:166
+msgid "Please choose Number of tickets"
+msgstr "Bilet sayısı seçin"
+
+#: views/front_end_fullcalendar.php:15
+msgid "Monthly Calendar"
+msgstr "Aylık Takvim"
+
+#: views/paypal_detail.php:17 views/paypal_detail.php:28
+msgid "PAYPAL DETAILS"
+msgstr "PAYPAL BILGILERI"
+
+#: views/paypal_detail.php:35
+msgid "Event"
+msgstr "olay"
+
+#: views/paypal_detail.php:36
+msgid "Cost"
+msgstr "maliyet"
+
+#: views/paypal_detail.php:39
+msgid "Trns ID"
+msgstr "Trns ID"
+
+#: views/paypal_detail.php:40
+msgid "Payment Status"
+msgstr "ödeme Durum"
+
+#: views/paypal_detail.php:41
+msgid "Payment Date"
+msgstr "ödeme Tarihi"
+
+#: views/setting.php:15
+msgid "SETTINGS"
+msgstr "AYARLARI"
+
+#: views/setting.php:32
+msgid "Your setting has been updated successfully."
+msgstr "Sizin ayar başarıyla güncellendi."
+
+#: views/setting.php:39
+msgid "Admin Email :"
+msgstr "Yönetici E-Posta:"
+
+#: views/setting.php:58
+msgid "Default Currency :"
+msgstr "varsayılan Geçerli Para Birimi :"
+
+#: views/setting.php:105
+msgid "Default Country :"
+msgstr "Varsayılan Ülke :"
+
+#: views/setting.php:161
+msgid " Default Time Format :"
+msgstr "Varsayılan Saat Biçimi :"
+
+#: views/setting.php:204
+msgid "Default Date Format :"
+msgstr "Varsayılan Tarih Biçimi :"
+
+#: views/setting.php:297
+msgid "Default Time Zone :"
+msgstr "Varsayılan Saat Dilimi :"
+
+#: views/setting.php:340
+msgid "Events Booking:"
+msgstr "Olaylar rezervasyon :"
+
+#: views/setting.php:357 views/setting.php:364 views/setting.php:390
+#: views/setting.php:397 views/setting.php:423 views/setting.php:430
+msgid "Enabled"
+msgstr "etkin"
+
+#: views/setting.php:358 views/setting.php:365 views/setting.php:391
+#: views/setting.php:398 views/setting.php:424 views/setting.php:431
+msgid "Disabled"
+msgstr "özürlü"
+
+#: views/setting.php:373
+msgid "Auto Approve :"
+msgstr "Otomatik Onayla :"
+
+#: views/setting.php:406
+msgid "Paypal Payments:"
+msgstr "Paypal Ödemeler :"
+
+#: views/setting.php:448
+msgid "PayPal Url :"
+msgstr "PayPal Url :"
+
+#: views/setting.php:454 views/setting.php:461
+msgid "Live"
+msgstr "canlı"
+
+#: views/setting.php:455 views/setting.php:462
+msgid "Sandbox"
+msgstr "kum havuzu"
+
+#: views/setting.php:479
+msgid "Paypal Email :"
+msgstr "Paypal E-posta :"
+
+#: views/setting.php:495
+msgid "Success Page Url :"
+msgstr "Başarı Sayfa Url : "
+
+#: views/setting.php:512
+msgid "Cancel Page Url :"
+msgstr "Sayfa Url İptal :"
+
+#: views/setting.php:522
+msgid "IPN Url :"
+msgstr "IPN Url :"
+
+#: views/setting.php:537
+msgid "Delete All Bookings"
+msgstr "Tüm Rezervasyonları Sil"
+
+#: views/setting.php:542
+msgid "Restore Factory Settings"
+msgstr "Fabrika Ayarlarını Geri Yükle"
+
+#: views/setting.php:655
+msgid "Are you sure you want to Restore Factory Settings ?"
+msgstr "Eğer Fabrika Ayarlarını Geri Yükle etmek istediğinizden emin misiniz?"
+
+#: views/setting.php:671
+msgid "Are you sure you want to Delete All Bookings?"
+msgstr "Tüm-Sil istediğinizden emin misiniz rezervasyonlarında?"
+
+#: views/shortcode.php:15
+msgid "SHORTCODE"
+msgstr "Kısa kod"
+
+#: views/shortcode.php:30
+msgid "Events with Full Calendar :"
+msgstr "Tam Takvim olaylar :"
+
+#: views/shortcode.php:38
+msgid "Events in List View :"
+msgstr " Olaylar Liste Görünümü :"
+
+#: views/shortcode.php:46
+msgid "Single Event Display :"
+msgstr "Tek Olay Gösterimi :"
+
+#: views/ticket.php:19
+msgid "ADD NEW TICKET"
+msgstr "YENİ BİLET EKLE"
+
+#: views/ticket.php:32
+msgid "Ticket Name"
+msgstr "Bilet Adı"
+
+#: views/ticket.php:35
+msgid "Price"
+msgstr "fiyat"
+
+#: views/ticket.php:36
+msgid "Available"
+msgstr "mevcut"
+
+#: views/ticket.php:37
+msgid "Min. Ticket"
+msgstr "Min. bilet"
+
+#: views/ticket.php:38
+msgid "Max. Ticket"
+msgstr "Maksimum. bilet"
+
+#: views/ticket.php:149
+msgid "Are you sure you want to delete this Ticket?"
+msgstr "Eğer bu Bilet silmek istediğinizden emin misiniz?"
+
+#~ msgid "Back to Calendar"
+#~ msgstr "Takvim için geri"
+
+#~ msgid "bookingExist"
+#~ msgstr "bookingExist"
+
+#~ msgid "Adddress"
+#~ msgstr "adres"

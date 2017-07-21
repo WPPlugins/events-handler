@@ -1,0 +1,1130 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Handler Standard Edition\n"
+"POT-Creation-Date: 2013-05-21 11:18+0530\n"
+"PO-Revision-Date: 2013-05-21 11:19+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: C:\\wamp\\www\\Event_Handler\\wp-content\\plugins\\events-"
+"handler\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: menus.php:7 views/events.php:46
+msgid "Events"
+msgstr "Eventos"
+
+#: menus.php:12 lib/event-handler-class.php:9
+msgid "Bookings"
+msgstr "reserva"
+
+#: menus.php:17 lib/event-handler-class.php:10
+msgid "Calendar"
+msgstr "calendario"
+
+#: menus.php:22 lib/event-handler-class.php:11
+msgid "Templates"
+msgstr "plantillas"
+
+#: menus.php:27 lib/event-handler-class.php:12 views/ticket.php:24
+msgid "Tickets"
+msgstr "Entradas"
+
+#: menus.php:32 lib/event-handler-class.php:13
+msgid "Customers"
+msgstr "Clientes"
+
+#: menus.php:37 views/shortcode.php:23
+msgid "Shortcodes"
+msgstr "código corto"
+
+#: menus.php:42 lib/event-handler-class.php:15 views/setting.php:23
+msgid "Settings"
+msgstr "ajuste"
+
+#: menus.php:53
+msgid "Overview Stats"
+msgstr "Información general Estadísticas"
+
+#: menus.php:56
+msgid "Total Events"
+msgstr "Eventos totales"
+
+#: menus.php:62
+msgid "Total Bookings"
+msgstr "total de la reserva"
+
+#: menus.php:68
+msgid "Total Tickets"
+msgstr "Billetes totales"
+
+#: menus.php:74
+msgid "Total Customers"
+msgstr "Clientes totales"
+
+#: menus.php:86
+msgid "Default Settings"
+msgstr "ajuste por defecto"
+
+#: lib/booking-class.php:64 views/booking.php:37 views/bookings_detail.php:45
+#: views/ticket.php:33
+msgid "Event Name"
+msgstr "nombre del Evento"
+
+#: lib/booking-class.php:65 views/booking.php:38
+msgid "Customer Name"
+msgstr "Nombre del cliente"
+
+#: lib/booking-class.php:66 views/bookings_detail.php:47 views/events.php:57
+#: views/events_show.php:19 views/paypal_detail.php:38
+msgid "Time"
+msgstr "tiempo"
+
+#: lib/booking-class.php:67
+msgid "Start Date"
+msgstr "fecha de inicio"
+
+#: lib/booking-class.php:68
+msgid "End Date"
+msgstr "Fecha de finalización"
+
+#: lib/booking-class.php:69 views/booking.php:42 views/bookings_detail.php:50
+msgid "Status"
+msgstr "Estado del "
+
+#: lib/event-class.php:195 lib/event-class.php:451 lib/event-class.php:537
+msgid "Location Not Found."
+msgstr "Ubicación no encontrada."
+
+#: lib/event-handler-class.php:7 lib/event-handler-class.php:8
+msgid "Events Handler"
+msgstr "Manejador de Eventos"
+
+#: lib/event-handler-class.php:14
+msgid "Short Codes"
+msgstr "código corto"
+
+#: lib/event-handler-class.php:25
+msgid "API Key"
+msgstr "API clave"
+
+#: lib/front_end_fullcalendar-class.php:343
+#: lib/front_end_fullcalendar-class.php:355
+msgid "Choose Number of Tickets"
+msgstr "Por favor, eligir el número de billete"
+
+#: lib/front_end_fullcalendar-class.php:537
+msgid "Back"
+msgstr "espalda"
+
+#: lib/front_end_fullcalendar-class.php:628
+#: lib/front_end_fullcalendar-class.php:997
+msgid "Date :"
+msgstr "Fecha:"
+
+#: lib/front_end_fullcalendar-class.php:694
+msgid "Time Slot :"
+msgstr "Intervalo de tiempo:"
+
+#: lib/front_end_fullcalendar-class.php:735
+#: lib/front_end_fullcalendar-class.php:981
+msgid "Venue :"
+msgstr "Lugar de celebración:"
+
+#: lib/front_end_fullcalendar-class.php:741
+#: lib/front_end_fullcalendar-class.php:880
+#: lib/front_end_fullcalendar-class.php:989
+#: lib/front_end_fullcalendar-class.php:1076 views/addBooking.php:80
+#: views/edit_customer.php:76
+msgid "Address :"
+msgstr "Dirección:"
+
+#: lib/front_end_fullcalendar-class.php:747
+#: lib/front_end_fullcalendar-class.php:888
+#: lib/front_end_fullcalendar-class.php:1084 views/addBooking.php:88
+#: views/edit_customer.php:82
+msgid "City :"
+msgstr "ciudad:"
+
+#: lib/front_end_fullcalendar-class.php:758 views/edit_booking.php:330
+msgid "Ticket Type :"
+msgstr "Tipo de billete:"
+
+#: lib/front_end_fullcalendar-class.php:773
+msgid "Choose Ticket"
+msgstr "Elija billete"
+
+#: lib/front_end_fullcalendar-class.php:787
+msgid "Number of Tickets :"
+msgstr "Número de entradas:"
+
+#: lib/front_end_fullcalendar-class.php:796
+#: lib/front_end_fullcalendar-class.php:1036
+msgid "Price :"
+msgstr "Precio:"
+
+#: lib/front_end_fullcalendar-class.php:807
+msgid "Book now"
+msgstr "Reserve ahora"
+
+#: lib/front_end_fullcalendar-class.php:826
+msgid "Back to Event"
+msgstr "Volver al evento"
+
+#: lib/front_end_fullcalendar-class.php:831
+msgid "Back to Customer"
+msgstr "Regreso a Clientes"
+
+#: lib/front_end_fullcalendar-class.php:838 views/addBooking.php:26
+msgid "Success! Booking has been saved."
+msgstr "Éxito! Reservas se ha guardado."
+
+#: lib/front_end_fullcalendar-class.php:848
+#: lib/front_end_fullcalendar-class.php:1044
+msgid "E-mail Address :"
+msgstr "Dirección de correo electrónico:"
+
+#: lib/front_end_fullcalendar-class.php:856
+#: lib/front_end_fullcalendar-class.php:1052 views/addBooking.php:48
+#: views/edit_customer.php:52
+msgid "First Name :"
+msgstr "primero Nombre:"
+
+#: lib/front_end_fullcalendar-class.php:864
+#: lib/front_end_fullcalendar-class.php:1060 views/addBooking.php:56
+#: views/edit_customer.php:58
+msgid "Last Name :"
+msgstr "último Nombre:"
+
+#: lib/front_end_fullcalendar-class.php:872
+#: lib/front_end_fullcalendar-class.php:1068 views/addBooking.php:72
+#: views/edit_customer.php:70
+msgid "Mobile :"
+msgstr "móvil:"
+
+#: lib/front_end_fullcalendar-class.php:896
+#: lib/front_end_fullcalendar-class.php:1092 views/addBooking.php:96
+#: views/edit_customer.php:88
+msgid "Post Code :"
+msgstr "Código de poste:"
+
+#: lib/front_end_fullcalendar-class.php:904
+#: lib/front_end_fullcalendar-class.php:1100 views/addBooking.php:104
+msgid "Country :"
+msgstr "país:"
+
+#: lib/front_end_fullcalendar-class.php:950
+#: lib/front_end_fullcalendar-class.php:1155 views/addBooking.php:112
+#: views/edit_customer.php:128
+msgid "Comments :"
+msgstr "Comentarios:"
+
+#: lib/front_end_fullcalendar-class.php:961
+msgid "Save & Submit"
+msgstr "Guardar y Enviar"
+
+#: lib/front_end_fullcalendar-class.php:973
+msgid "Event :"
+msgstr "Evento:"
+
+#: lib/front_end_fullcalendar-class.php:1009
+msgid "Time :"
+msgstr "Tiempo:"
+
+#: lib/front_end_fullcalendar-class.php:1020 views/addticket.php:88
+#: views/editticket.php:98
+msgid "Ticket Name :"
+msgstr " billete Nombre:"
+
+#: lib/front_end_fullcalendar-class.php:1028
+msgid "Number of tickets :"
+msgstr "Número de entradas:"
+
+#: lib/front_end_fullcalendar-class.php:1166
+msgid "Submit"
+msgstr "presentar"
+
+#: lib/menus-class.php:71
+msgid "Default Currency"
+msgstr "moneda predeterminada"
+
+#: lib/menus-class.php:87
+msgid "Date Format"
+msgstr "Formato de la fecha"
+
+#: lib/menus-class.php:138
+msgid "Time Format"
+msgstr "Formato de hora"
+
+#: lib/menus-class.php:144 views/setting.php:170 views/setting.php:181
+msgid "12 Hours"
+msgstr "12 Horas"
+
+#: lib/menus-class.php:152 views/setting.php:173 views/setting.php:184
+msgid "24 Hours"
+msgstr "24 Horas"
+
+#: lib/menus-class.php:169
+msgid "Time Zone"
+msgstr "huso horario"
+
+#: lib/menus-class.php:185
+msgid "Paypal Payments"
+msgstr "los pagos de PayPal"
+
+#: lib/menus-class.php:192 lib/menus-class.php:226
+msgid "On"
+msgstr "en"
+
+#: lib/menus-class.php:200 lib/menus-class.php:234
+msgid "Off"
+msgstr "de"
+
+#: lib/menus-class.php:219
+msgid "Auto Approve"
+msgstr "Aprobar Auto"
+
+#: views/addBooking.php:7
+msgid "EVENT HANDLER"
+msgstr "controlador de eventos"
+
+#: views/addBooking.php:12
+msgid "BOOKINGS"
+msgstr "RESERVAS"
+
+#: views/addBooking.php:17
+msgid "ADD BOOKINGS"
+msgstr "Añadir Reservas"
+
+#: views/addBooking.php:33
+msgid "Error! Please enter valid booking time."
+msgstr "Error! Por favor, Introduzca el tiempo de reservas válida."
+
+#: views/addBooking.php:40
+msgid "Error! Please choose event."
+msgstr "Error! por favor elija evento."
+
+#: views/addBooking.php:64
+msgid "E-mail.Id :"
+msgstr "correo electrónico de identificación"
+
+#: views/addBooking.php:123 views/add_event.php:261
+#: views/edit_customer.php:137
+msgid "Submit & Save"
+msgstr " Enviar y Guardar "
+
+#: views/addBooking.php:127
+msgid "Cancel Bookings"
+msgstr "Cancelar reservas"
+
+#: views/addBooking.php:136 views/addticket.php:164 views/add_event.php:275
+#: views/api_key.php:97 views/booking.php:203 views/bookings_detail.php:219
+#: views/bookings_fullcalendar.php:32 views/clients.php:90
+#: views/editEvent.php:415 views/editticket.php:175 views/edit_booking.php:482
+#: views/edit_customer.php:151 views/email_templates.php:260
+#: views/paypal_detail.php:234 views/setting.php:556 views/shortcode.php:60
+#: views/ticket.php:120
+msgid "&copy; 2013 Events-Handler"
+msgstr "&copy; 2013 Events-Handler"
+
+#: views/addBooking.php:139 views/addticket.php:167 views/add_event.php:278
+#: views/api_key.php:100 views/booking.php:206 views/bookings_detail.php:222
+#: views/bookings_fullcalendar.php:35 views/clients.php:93
+#: views/editEvent.php:418 views/editticket.php:178 views/edit_booking.php:485
+#: views/edit_customer.php:154 views/email_templates.php:263
+#: views/events.php:209 views/paypal_detail.php:237 views/setting.php:559
+#: views/shortcode.php:63 views/ticket.php:123
+msgid "Powered by "
+msgstr "Powered by "
+
+#: views/addBooking.php:141 views/addticket.php:169 views/add_event.php:280
+#: views/api_key.php:102 views/booking.php:208 views/bookings_detail.php:224
+#: views/bookings_fullcalendar.php:37 views/clients.php:95
+#: views/editEvent.php:420 views/editticket.php:180 views/edit_booking.php:487
+#: views/edit_customer.php:156 views/email_templates.php:265
+#: views/paypal_detail.php:239 views/setting.php:561 views/shortcode.php:65
+#: views/ticket.php:125
+msgid "Events-Handler!"
+msgstr "Events-Handler!"
+
+#: views/addticket.php:7 views/add_event.php:7 views/api_key.php:7
+#: views/booking.php:7 views/bookings_detail.php:7
+#: views/bookings_fullcalendar.php:7 views/clients.php:7
+#: views/editEvent.php:24 views/editticket.php:19 views/edit_booking.php:7
+#: views/edit_customer.php:7 views/email_templates.php:7 views/events.php:7
+#: views/paypal_detail.php:7 views/setting.php:10 views/shortcode.php:10
+#: views/ticket.php:7
+msgid "EVENTS HANDLER"
+msgstr "MANIPULADOR DE EVENTOS"
+
+#: views/addticket.php:12 views/editticket.php:24 views/ticket.php:12
+msgid "TICKETS"
+msgstr "ENTRADAS"
+
+#: views/addticket.php:17 views/addticket.php:28
+msgid "ADD TICKET"
+msgstr "AÑADIR BILLETE"
+
+#: views/addticket.php:24 views/editticket.php:36
+msgid "Back to Tickets"
+msgstr "Volver al billetes"
+
+#: views/addticket.php:35
+msgid "Success! Ticket has been saved."
+msgstr "Éxito! Venta de entradas ha sido guardado."
+
+#: views/addticket.php:42 views/addticket.php:266
+msgid "Error! Please Choose a Event."
+msgstr "Error! Por favor, elija un evento."
+
+#: views/addticket.php:49 views/addticket.php:270 views/editticket.php:54
+#: views/editticket.php:273
+msgid "Error! Minimum Tickets are greater than Maximum Ticket."
+msgstr "Error! Boletos  mínimos son mayores que el máximo de Billete."
+
+#: views/addticket.php:56 views/editticket.php:61
+msgid "Select Event :"
+msgstr "Seleccione Evento:"
+
+#: views/addticket.php:71
+msgid "Choose Event"
+msgstr "Elija evento:"
+
+#: views/addticket.php:96 views/add_event.php:58 views/editticket.php:106
+msgid "Description :"
+msgstr "Descripción:"
+
+#: views/addticket.php:114 views/editticket.php:127
+msgid "Price ("
+msgstr "Precio ("
+
+#: views/addticket.php:122 views/editticket.php:135
+msgid "Available Tickets :"
+msgstr "disponible Venta de entradas:"
+
+#: views/addticket.php:130 views/editticket.php:143
+msgid "Minimum :"
+msgstr "mínimo:"
+
+#: views/addticket.php:138 views/editticket.php:151
+msgid "Maximum :"
+msgstr "Máximo :"
+
+#: views/addticket.php:150 views/editticket.php:161
+#: views/email_templates.php:64 views/email_templates.php:120
+#: views/email_templates.php:175 views/email_templates.php:230
+#: views/setting.php:532
+msgid "Submit & Save Changes"
+msgstr "Enviar y Guardar cambios"
+
+#: views/addticket.php:258 views/editticket.php:265
+msgid ""
+"Error! You have entered minimum tickets are greater than Available tickets"
+msgstr ""
+"Error! Ha introducido billete mínimos son mayores que las boletos disponibles"
+
+#: views/addticket.php:262 views/editticket.php:269
+msgid ""
+"Error! You have entered maximum tickets are greater than Available tickets"
+msgstr ""
+"Error! Ha introducido billete maximo son mayores que las boletos disponibles"
+
+#: views/add_event.php:12 views/editEvent.php:29 views/events.php:12
+msgid "EVENTS"
+msgstr "EVENTOS"
+
+#: views/add_event.php:17
+msgid "ADD NEW EVENT"
+msgstr " AÑADIR NUEVO EVENTO"
+
+#: views/add_event.php:24 views/editEvent.php:41
+msgid "Back to Events"
+msgstr "espalda para Eventos"
+
+#: views/add_event.php:28 views/events.php:19
+msgid "Add New Event"
+msgstr "Crear Nuevo Evento"
+
+#: views/add_event.php:36 views/editEvent.php:52
+msgid "Success! Event has been saved."
+msgstr "Éxito! Evento se ha guardado."
+
+#: views/add_event.php:43
+msgid "Event Color :"
+msgstr "color del acontecimiento:"
+
+#: views/add_event.php:51 views/editEvent.php:68 views/edit_booking.php:142
+msgid "Event Name :"
+msgstr "Evento Nombre:"
+
+#: views/add_event.php:64 views/editEvent.php:83
+msgid "Full Day :"
+msgstr "Día completo:"
+
+#: views/add_event.php:71 views/editEvent.php:103
+msgid "Event From :"
+msgstr "De Eventos desde:"
+
+#: views/add_event.php:74 views/editEvent.php:107 views/edit_booking.php:152
+msgid "Event Date :"
+msgstr "Evento Fecha:"
+
+#: views/add_event.php:82 views/editEvent.php:116
+msgid "Event To :"
+msgstr "evento para:"
+
+#: views/add_event.php:90 views/editEvent.php:124
+msgid "Start Time :"
+msgstr "Hora de inicio:"
+
+#: views/add_event.php:124 views/add_event.php:125 views/editEvent.php:203
+#: views/editEvent.php:204 views/editEvent.php:210 views/editEvent.php:211
+#: views/editEvent.php:299 views/editEvent.php:300 views/editEvent.php:306
+#: views/editEvent.php:307
+msgid "AM"
+msgstr "AM"
+
+#: views/add_event.php:127 views/add_event.php:128 views/editEvent.php:219
+#: views/editEvent.php:220 views/editEvent.php:226 views/editEvent.php:227
+#: views/editEvent.php:315 views/editEvent.php:316 views/editEvent.php:322
+#: views/editEvent.php:323
+msgid "PM"
+msgstr "PM"
+
+#: views/add_event.php:135 views/editEvent.php:237
+msgid "End Time :"
+msgstr "Hora de finalización:"
+
+#: views/add_event.php:188 views/editEvent.php:335
+msgid "Venue Name :"
+msgstr "lugar Nombre :"
+
+#: views/add_event.php:196 views/editEvent.php:343
+msgid "Venue Address :"
+msgstr "lugar Dirección:"
+
+#: views/add_event.php:204 views/editEvent.php:351
+msgid "Venue City :"
+msgstr "Ciudad de celebración:"
+
+#: views/add_event.php:212 views/editEvent.php:359
+msgid "Venue Country :"
+msgstr "lugar país:"
+
+#: views/add_event.php:447 views/editEvent.php:569
+msgid "Start Date must be greater than or equal to end date."
+msgstr "Fecha de comienzo debe ser mayor que o igual a la fecha final."
+
+#: views/add_event.php:469
+msgid "Please Enter Valid Time"
+msgstr "complacer Ingresá Tiempo válido"
+
+#: views/api_key.php:12 views/api_key.php:18
+msgid "API KEY"
+msgstr "API CLAVE"
+
+#: views/api_key.php:25
+msgid ""
+"<p>We Respect your Privacy. Your information is highly confidential to us "
+"and we don't sell it to third parties.</p><p> We need you to register your "
+"API Key with your Email Address & Name in order to make this plugin work "
+"smoothly.</p><p>Once you register your API, the plugin would work as "
+"expected.</p>"
+msgstr ""
+"<p> nosotros Respetamos su privacidad. Su información es estrictamente "
+"confidencial y nosotros no la vendemos a terceros. </ P> Es necesario que se "
+"registre la clave de API con su dirección de correo electrónico y nombre "
+"para hacer este trabajo Programas sin problemas. </ p> Una vez que registre "
+"su API, el plugin funcionará como se espera. </ p>"
+
+#: views/api_key.php:32
+msgid "Your Email :"
+msgstr "Dirección de correo electrónico:"
+
+#: views/api_key.php:40
+msgid "Your Name :"
+msgstr "primero Nombre:"
+
+#: views/api_key.php:49
+msgid "Api Key :"
+msgstr "Api clave :"
+
+#: views/api_key.php:75
+msgid "Yes, I may Purchase Pro Version Later."
+msgstr "sí, Puedo comprar versión pro tarde."
+
+#: views/api_key.php:84
+msgid "Register your API Key to start using Events Handler"
+msgstr ""
+"Registre su clave de API para empezar a utilizar controlador de eventos"
+
+#: views/booking.php:12 views/booking.php:30 views/edit_booking.php:12
+msgid "BOOKINGS AGENDA"
+msgstr "ORDEN DEL DÍA RESERVAS"
+
+#: views/booking.php:39 views/clients.php:31
+msgid "Mobile"
+msgstr "móvil"
+
+#: views/booking.php:40
+msgid "Event Time"
+msgstr "Evento tiempo"
+
+#: views/booking.php:41 views/ticket.php:34
+msgid "Event Date"
+msgstr "evento Fecha  "
+
+#: views/booking.php:185
+msgid "Edit Booking?"
+msgstr "editar Reservas?"
+
+#: views/booking.php:186 views/bookings_detail.php:203
+#: views/paypal_detail.php:218
+msgid "Delete Booking?"
+msgstr "Eliminar Reservas?"
+
+#: views/booking.php:231 views/bookings_detail.php:247
+#: views/paypal_detail.php:262
+msgid "Are you sure you want to delete this Booking?"
+msgstr "¿Está seguro de que desea eliminar esta reserva?"
+
+#: views/bookings_detail.php:12 views/clients.php:12 views/clients.php:20
+#: views/edit_customer.php:12 views/paypal_detail.php:12
+msgid "CUSTOMERS"
+msgstr "CLIENTES"
+
+#: views/bookings_detail.php:17 views/bookings_detail.php:38
+msgid "BOOKINGS DETAILS"
+msgstr "Detalles de la Reserva"
+
+#: views/bookings_detail.php:24 views/edit_customer.php:24
+#: views/paypal_detail.php:24
+msgid "Back to Customers"
+msgstr "Regreso a Clientes"
+
+#: views/bookings_detail.php:46 views/events.php:56 views/events_show.php:18
+#: views/paypal_detail.php:37
+msgid "Date"
+msgstr "fecha"
+
+#: views/bookings_detail.php:48
+msgid "Ticket Type"
+msgstr "billete tipo: "
+
+#: views/bookings_detail.php:49
+msgid "Total Price"
+msgstr "precio total"
+
+#: views/bookings_fullcalendar.php:12
+msgid "EVENTS BOOKINGS"
+msgstr "EVENTOS RESERVAS"
+
+#: views/bookings_fullcalendar.php:20
+msgid "Events Calendar"
+msgstr " Eventos Calendario "
+
+#: views/clients.php:28
+msgid "First Name"
+msgstr "primero nombre"
+
+#: views/clients.php:29
+msgid "Last Name"
+msgstr "último"
+
+#: views/clients.php:30
+msgid "Email Address"
+msgstr "Dirección de correo electrónico"
+
+#: views/clients.php:32
+msgid "City"
+msgstr "ciudad"
+
+#: views/clients.php:33
+msgid "Country"
+msgstr "país"
+
+#: views/clients.php:65
+msgid "Edit Client?"
+msgstr "Editar evento?"
+
+#: views/clients.php:70
+msgid "Paypal Details?"
+msgstr "los pagos de PayPal"
+
+#: views/clients.php:75
+msgid "Bookings Details?"
+msgstr "Detalles de la Reserva?"
+
+#: views/clients.php:76
+msgid "Delete Client"
+msgstr " borrar cliente"
+
+#: views/clients.php:118
+msgid "Are you sure you want to delete this Customer?"
+msgstr "¿Está seguro que desea eliminar este cliente?"
+
+#: views/clients.php:128
+msgid "You cannot delete this Customer until all Bookings are deleted."
+msgstr ""
+"No se puede eliminar este cliente hasta que se eliminen todas las reservas."
+
+#: views/editEvent.php:34
+msgid "EDIT EVENT"
+msgstr "EDITAR EVENTO"
+
+#: views/editEvent.php:45
+msgid "Edit Event"
+msgstr "Editar evento"
+
+#: views/editEvent.php:60
+msgid "Event Color Code :"
+msgstr "evento código de color:"
+
+#: views/editEvent.php:76
+msgid "Event Description :"
+msgstr "Descripción del evento:"
+
+#: views/editEvent.php:402
+msgid "Update Event"
+msgstr "actualizar evento"
+
+#: views/editEvent.php:588
+msgid "Please Enter Valid Time."
+msgstr "complacer Ingresá Tiempo válido."
+
+#: views/editticket.php:29 views/editticket.php:40
+msgid "EDIT TICKET"
+msgstr "EDITAR BILLETE"
+
+#: views/editticket.php:47
+msgid "Success! Ticket has been updated."
+msgstr "Éxito! Venta de entradas se ha actualizado."
+
+#: views/edit_booking.php:17
+msgid "EDIT BOOKING"
+msgstr "EDITAR RESERVAS"
+
+#: views/edit_booking.php:24
+msgid "Back to Bookings"
+msgstr "Regreso a reserva"
+
+#: views/edit_booking.php:28
+msgid "Edit Booking"
+msgstr "Editar Reservas"
+
+#: views/edit_booking.php:34
+msgid "Success! Booking has been Updated.."
+msgstr "Éxito! Reservas se actualiza .."
+
+#: views/edit_booking.php:71
+msgid "Customer First Name :"
+msgstr "Cliente primero Nombre:"
+
+#: views/edit_booking.php:77
+msgid "Customer Last Name :"
+msgstr "Cliente último Apellido:"
+
+#: views/edit_booking.php:83
+msgid "Customer Email :"
+msgstr "correo electrónico del cliente:"
+
+#: views/edit_booking.php:89
+msgid "Customer Mobile :"
+msgstr "Cliente Móvil:"
+
+#: views/edit_booking.php:95
+msgid "Customer Address :"
+msgstr "Dirección del cliente:"
+
+#: views/edit_booking.php:101
+msgid "Customer City :"
+msgstr "Ciudad al Cliente:"
+
+#: views/edit_booking.php:108
+msgid "Customer Country:"
+msgstr "países de los clientes:"
+
+#: views/edit_booking.php:213
+msgid "Event Time :"
+msgstr "Evento hora:"
+
+#: views/edit_booking.php:269
+msgid "Date Of Booking :"
+msgstr "Fecha de la reserva:"
+
+#: views/edit_booking.php:340
+msgid "No. of Tickets :"
+msgstr "Número de entradas:"
+
+#: views/edit_booking.php:360
+msgid "Total Cost ("
+msgstr "Costo total ("
+
+#: views/edit_booking.php:385
+msgid "Trns. Id :"
+msgstr "identificación de la transacción :"
+
+#: views/edit_booking.php:395
+msgid "Payment Status :"
+msgstr "Estado del pago:"
+
+#: views/edit_booking.php:405
+msgid "Payment date :"
+msgstr " pago Fecha:"
+
+#: views/edit_booking.php:418
+msgid "Booking Status :"
+msgstr "reserva Estado de :"
+
+#: views/edit_booking.php:427 views/edit_booking.php:445
+#: views/edit_booking.php:454
+msgid "Approved"
+msgstr "aprobado"
+
+#: views/edit_booking.php:428 views/edit_booking.php:437
+#: views/edit_booking.php:455
+msgid "Disapproved"
+msgstr "Rechazado"
+
+#: views/edit_booking.php:429 views/edit_booking.php:438
+#: views/edit_booking.php:447
+msgid "Cancelled"
+msgstr "Cancelado"
+
+#: views/edit_booking.php:435 views/edit_booking.php:444
+#: views/edit_booking.php:453
+msgid "Pending Approval"
+msgstr "Pendiente de aprobación"
+
+#: views/edit_booking.php:467
+msgid "Update & Save"
+msgstr "actualizar y ahorre"
+
+#: views/edit_customer.php:17
+msgid "EDIT CUSTOMERS"
+msgstr "EDITAR CLIENTES"
+
+#: views/edit_customer.php:28
+msgid "Edit Customers"
+msgstr "Editar Clientes"
+
+#: views/edit_customer.php:34
+msgid "Success! Customer has been Updated.."
+msgstr "Éxito! cliente se ha actualizado."
+
+#: views/edit_customer.php:64
+msgid "Email :"
+msgstr "Dirección de correo electrónico:"
+
+#: views/edit_customer.php:95
+msgid "Country:"
+msgstr "país:"
+
+#: views/email_templates.php:12
+msgid "EMAIL TEMPLATES"
+msgstr "Plantillas de correo electrónico"
+
+#: views/email_templates.php:21 views/email_templates.php:76
+#: views/email_templates.php:131 views/email_templates.php:186
+#: views/email_templates.php:241
+msgid "Success! The Email has been saved."
+msgstr "Éxito! El correo electrónico ha sido guardada."
+
+#: views/email_templates.php:27
+msgid "Approval Pending Email Template [Sent to Customer]"
+msgstr ""
+"Pendiente de aprobación plantilla de correo electrónico [enviado al cliente]"
+
+#: views/email_templates.php:34 views/email_templates.php:99
+#: views/email_templates.php:154 views/email_templates.php:209
+msgid "Email Subject :"
+msgstr "Asunto del correo:"
+
+#: views/email_templates.php:51 views/email_templates.php:107
+#: views/email_templates.php:162 views/email_templates.php:217
+msgid "Email Content :"
+msgstr "Asunto del correo:"
+
+#: views/email_templates.php:92
+msgid "Approved Email Template [Sent to Customer]"
+msgstr " Aprobado Plantilla de correo electrónico [ Enviar a cliente]"
+
+#: views/email_templates.php:147
+msgid "Disapproved Email Template [Sent to Customer]"
+msgstr " Aprobado Plantilla de correo electrónico [ Enviado para cliente]"
+
+#: views/email_templates.php:202
+msgid "Approve/Disapprove Email Template [Sent to Admin]"
+msgstr ""
+"Aprobar / Desaprobar plantilla de correo electrónico [Enviado para "
+"administrador]"
+
+#: views/events.php:24
+msgid "Success! Event has been deleted."
+msgstr "Éxito! Evento se ha borrado."
+
+#: views/events.php:31
+msgid "Error! Please Enter the Valid Time."
+msgstr "Error! Por favor introduce el Tiempo válido."
+
+#: views/events.php:39
+msgid "Bookings associated with this Event. It can't be deleted."
+msgstr "reservación asociado a este evento. No se puede eliminar."
+
+#: views/events.php:52
+msgid "Name"
+msgstr "nombre"
+
+#: views/events.php:53 views/events_show.php:16
+msgid "Venue"
+msgstr "Lugar"
+
+#: views/events.php:54 views/events_show.php:17
+msgid "Address"
+msgstr "dirección"
+
+#: views/events.php:55
+msgid "Full Day"
+msgstr "día lleno"
+
+#: views/events.php:97
+msgid "Yes"
+msgstr "sí"
+
+#: views/events.php:103
+msgid "No"
+msgstr "negativa"
+
+#: views/events.php:192
+msgid "Edit Event?"
+msgstr "Editar evento?"
+
+#: views/events.php:193
+msgid "Delete Event?"
+msgstr "Eliminar evento?"
+
+#: views/events.php:206
+msgid "&copy; 2013 Events Handler. All Rights Reserved."
+msgstr "&copy; 2013 Events Handler. All Rights Reserved."
+
+#: views/events.php:211
+msgid "Events Handler!"
+msgstr "Events Handler!"
+
+#: views/events.php:236
+msgid "Are you sure you want to delete this Event?"
+msgstr "¿Está seguro que desea eliminar este evento?"
+
+#: views/events.php:245
+msgid "Bookings associated with this event. you cannot delete it"
+msgstr "Reservas a este evento. Usted no puede eliminarlo"
+
+#: views/events.php:249
+msgid "Ticket associated with this Event. you can't delete it"
+msgstr "Billete asociado a este evento. No se puede eliminar."
+
+#: views/events_show.php:15
+msgid "EVENT NAME"
+msgstr "EVENTO NOMBRE"
+
+#: views/events_show.php:141
+msgid "View Detail"
+msgstr "Ver detalles"
+
+#: views/events_show.php:207 views/event_details.php:41
+#: views/front_end_fullcalendar.php:79
+msgid "No more booking possible on this event."
+msgstr "No más reservación posible en este caso."
+
+#: views/events_show.php:273 views/event_details.php:110
+#: views/front_end_fullcalendar.php:159
+msgid "Please choose ticket type"
+msgstr "Por favor elegir  billete tipo"
+
+#: views/events_show.php:280 views/event_details.php:117
+#: views/front_end_fullcalendar.php:166
+msgid "Please choose Number of tickets"
+msgstr "Por favor, eligir el número de billete"
+
+#: views/front_end_fullcalendar.php:15
+msgid "Monthly Calendar"
+msgstr "Calendario mensual"
+
+#: views/paypal_detail.php:17 views/paypal_detail.php:28
+msgid "PAYPAL DETAILS"
+msgstr "DETALLES DE PAYPAL"
+
+#: views/paypal_detail.php:35
+msgid "Event"
+msgstr "evento"
+
+#: views/paypal_detail.php:36
+msgid "Cost"
+msgstr "costo"
+
+#: views/paypal_detail.php:39
+msgid "Trns ID"
+msgstr "ID de transacción"
+
+#: views/paypal_detail.php:40
+msgid "Payment Status"
+msgstr "Estado del pago"
+
+#: views/paypal_detail.php:41
+msgid "Payment Date"
+msgstr "Fecha de Pago"
+
+#: views/setting.php:15
+msgid "SETTINGS"
+msgstr "AJUSTES"
+
+#: views/setting.php:32
+msgid "Your setting has been updated successfully."
+msgstr "El ajuste se ha actualizado correctamente."
+
+#: views/setting.php:39
+msgid "Admin Email :"
+msgstr "administrador Correo electrónico:"
+
+#: views/setting.php:58
+msgid "Default Currency :"
+msgstr "Moneda predeterminada:"
+
+#: views/setting.php:105
+msgid "Default Country :"
+msgstr "Defecto País:"
+
+#: views/setting.php:161
+msgid " Default Time Format :"
+msgstr "Por defecto Formato de hora:"
+
+#: views/setting.php:204
+msgid "Default Date Format :"
+msgstr "Por defecto fecha formato:"
+
+#: views/setting.php:297
+msgid "Default Time Zone :"
+msgstr "Por defecto Huso horario:"
+
+#: views/setting.php:340
+msgid "Events Booking:"
+msgstr "Eventos reserva:"
+
+#: views/setting.php:357 views/setting.php:364 views/setting.php:390
+#: views/setting.php:397 views/setting.php:423 views/setting.php:430
+msgid "Enabled"
+msgstr "habilitado"
+
+#: views/setting.php:358 views/setting.php:365 views/setting.php:391
+#: views/setting.php:398 views/setting.php:424 views/setting.php:431
+msgid "Disabled"
+msgstr "discapacitado"
+
+#: views/setting.php:373
+msgid "Auto Approve :"
+msgstr "Aprobar Auto:"
+
+#: views/setting.php:406
+msgid "Paypal Payments:"
+msgstr "los pagos de PayPal"
+
+#: views/setting.php:448
+msgid "PayPal Url :"
+msgstr "PayPal Url:"
+
+#: views/setting.php:454 views/setting.php:461
+msgid "Live"
+msgstr "vivir"
+
+#: views/setting.php:455 views/setting.php:462
+msgid "Sandbox"
+msgstr "arenero"
+
+#: views/setting.php:479
+msgid "Paypal Email :"
+msgstr "Dirección de correo electrónico:"
+
+#: views/setting.php:495
+msgid "Success Page Url :"
+msgstr "Éxito Página Url:"
+
+#: views/setting.php:512
+msgid "Cancel Page Url :"
+msgstr "Cancelar de la página  Url:"
+
+#: views/setting.php:522
+msgid "IPN Url :"
+msgstr "IPN Url :"
+
+#: views/setting.php:537
+msgid "Delete All Bookings"
+msgstr "Eliminar todas las reservas"
+
+#: views/setting.php:542
+msgid "Restore Factory Settings"
+msgstr "Restaurar la configuración de fábrica"
+
+#: views/setting.php:655
+msgid "Are you sure you want to Restore Factory Settings ?"
+msgstr "¿Está seguro de que desea restaurar la configuración de fábrica?"
+
+#: views/setting.php:671
+msgid "Are you sure you want to Delete All Bookings?"
+msgstr "¿Está seguro que desea eliminar todas las reservas?"
+
+#: views/shortcode.php:15
+msgid "SHORTCODE"
+msgstr "código corto"
+
+#: views/shortcode.php:30
+msgid "Events with Full Calendar :"
+msgstr "Eventos con Calendario completo:"
+
+#: views/shortcode.php:38
+msgid "Events in List View :"
+msgstr "Eventos en Lista Vista:"
+
+#: views/shortcode.php:46
+msgid "Single Event Display :"
+msgstr "solo evento mostrar:"
+
+#: views/ticket.php:19
+msgid "ADD NEW TICKET"
+msgstr "AÑADIR NUEVO BILLETE"
+
+#: views/ticket.php:32
+msgid "Ticket Name"
+msgstr " Billete Nombre"
+
+#: views/ticket.php:35
+msgid "Price"
+msgstr "precio"
+
+#: views/ticket.php:36
+msgid "Available"
+msgstr "disponible"
+
+#: views/ticket.php:37
+msgid "Min. Ticket"
+msgstr "boleto mínimo"
+
+#: views/ticket.php:38
+msgid "Max. Ticket"
+msgstr "billete de máxima"
+
+#: views/ticket.php:149
+msgid "Are you sure you want to delete this Ticket?"
+msgstr "¿Está seguro que desea eliminar este entradas?"
+
+#~ msgid "Back to Calendar"
+#~ msgstr "Volver al calendario"
+
+#~ msgid "bookingExist"
+#~ msgstr "existe reserva"
+
+#~ msgid "Adddress"
+#~ msgstr "dirección"
